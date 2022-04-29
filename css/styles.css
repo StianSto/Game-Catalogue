@@ -1,0 +1,41 @@
+* {
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin-inline: auto;
+    background-color: #1f1f1f;
+}
+
+header {
+    min-height: 75px;
+    background-color: rgb(50, 50, 50);
+    background-color: rgb(220, 184, 0);
+    padding-block: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 3rem;
+    margin-inline: 5rem;
+}
+
+main {
+    background-color: #303033;
+    min-height: 100vh;
+}
+
+@media only screen and (min-width: 900px) {
+    main {
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}
